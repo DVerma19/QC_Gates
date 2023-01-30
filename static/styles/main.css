@@ -1,0 +1,91 @@
+* {
+    padding: 10px;
+}
+
+body{
+    background-color: white;
+}
+#quantum_circuit{
+    background-color: #E48EC3;
+    margin: 10px;
+    border:5px solid black;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3 ease-in-out;
+}
+
+#quantum_circuit.fade {
+    opacity: 0;
+}
+
+#qbit_to_quantum_circuit{
+    position: relative;
+    opacity: 0;
+}
+
+#checkbox_holding_cells_div{
+    margin-left: 10%;
+    margin-right: 5%;
+    border:4px solid #ff009d;
+    font-size: 16px;
+    background-color: #e761b4;
+}
+
+#qbit_to_quantum_circuit{
+    background-color: #e490c4;
+}
+
+#qbit_quantum_circuit_holder, #qbit_image{
+    border:4px solid #ff009d;
+    font-size: 10px;
+    background-color: #e761b4;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#qbit_to_circuit_btn, #display_input_fields_gates_to_circuit, #circuit_gate_applier, #measured_results, #delete_gates_inp{
+    margin: auto;
+    background-color: #e761b4;
+    color: black;
+    font-size: 20px;
+}
+
+#checkbox_gate_div {
+    display: none;
+    background-color: #e490c4;
+    opacity: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#checkbox_gate_div.fade {
+    opacity: 0;
+}
+
+#submit_gates_to_circuit_form_div{
+    position: relative;
+    top: -80px;
+    background-color: #e490c4;
+    font-size: 18px;
+}
+
+#submit_gates_to_circuit_form_div > form > div {
+    background-color: #e761b4;
+    margin-top: 5%;
+}
+
+.steps_list{
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+}
+
+#measure_values{
+    position: relative;
+    top:-100px;
+    border: 2px solid black;
+}
